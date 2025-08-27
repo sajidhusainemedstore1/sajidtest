@@ -49,8 +49,8 @@ if (isset($_SESSION['success'])) {
           <button type="submit">Login</button>
         </form>
         <p style="text-align:center; margin-top:10px;">
-        <a href="register.php">Sign Up</a>
-    </p>
+            <a href="register.php">Sign Up</a>
+        </p>
     </div>
 </body>
 </html>
