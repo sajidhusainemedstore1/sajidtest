@@ -22,11 +22,11 @@
                     $conn->query($sql);
                 }
                 $_SESSION['cart'] = [];
-                echo "<h1 class='success'>Order Placed Successfully!</h1>";
+                echo "<h2 class='success'>Order Placed Successfully!</h2>";
                 echo "<p>Thank you for shopping with us.</p>";
                 echo "<a href='products.php' class='btn'>Continue Shopping</a>";
             } else {
-                echo "<h1 class='error'>Cart is empty</h1>";
+                echo "<h2 class='error'>Cart is empty</h2>";
                 echo "<a href='products.php' class='btn'>Browse Products</a>";
             }
         ?>
